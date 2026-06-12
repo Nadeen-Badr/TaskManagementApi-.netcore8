@@ -1,0 +1,17 @@
+D:\Dev\Personal\TaskManagementApi\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+D:\Dev\Personal\TaskManagementApi\Infrastructure\bin\Debug\net8.0\Infrastructure.runtimeconfig.json
+D:\Dev\Personal\TaskManagementApi\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+D:\Dev\Personal\TaskManagementApi\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+D:\Dev\Personal\TaskManagementApi\Infrastructure\bin\Debug\net8.0\Domain.dll
+D:\Dev\Personal\TaskManagementApi\Infrastructure\bin\Debug\net8.0\Domain.pdb
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastr.15EFFBFE.Up2Date
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

@@ -1,0 +1,11 @@
+D:\Dev\Personal\TaskManagementApi\Domain\bin\Debug\net8.0\Domain.deps.json
+D:\Dev\Personal\TaskManagementApi\Domain\bin\Debug\net8.0\Domain.dll
+D:\Dev\Personal\TaskManagementApi\Domain\bin\Debug\net8.0\Domain.pdb
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\Domain.dll
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\refint\Domain.dll
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\Domain.pdb
+D:\Dev\Personal\TaskManagementApi\Domain\obj\Debug\net8.0\ref\Domain.dll
