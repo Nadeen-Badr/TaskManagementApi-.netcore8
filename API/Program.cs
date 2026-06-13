@@ -12,12 +12,16 @@ using Microsoft.OpenApi.Models;
 using System.Text;
 using StackExchange.Redis;
 using Infrastructure.Caching;
+using Infrastructure.BackgroundJobs;
 var builder = WebApplication.CreateBuilder(args);
 // DbContext
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // DI
+builder.Services.AddSingleton<TaskChannel>();
+
+builder.Services.AddHostedService<TaskProcessingWorker>();
 builder.Services.AddSingleton<IConnectionMultiplexer>(
     ConnectionMultiplexer.Connect("localhost:6379"));
 

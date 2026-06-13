@@ -1,13 +1,15 @@
 ﻿using Application.DTOs;
 using Domain.Entities;
+using Infrastructure.BackgroundJobs;
 using Infrastructure.Caching;
 using Infrastructure.Repositories;
+using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Extensions.Logging;
+
 namespace Application.Services.Tasks;
 
 public class TaskService : ITaskService
@@ -15,14 +17,17 @@ public class TaskService : ITaskService
     private readonly ITaskRepository _taskRepository;
     private readonly RedisCacheService _cache;
     private readonly ILogger<TaskService> _logger;
+    private readonly TaskChannel _taskChannel;
     public TaskService(
-       ITaskRepository taskRepository,
-       RedisCacheService cache,
-       ILogger<TaskService> logger)
+        ITaskRepository taskRepository,
+        RedisCacheService cache,
+        ILogger<TaskService> logger,
+        TaskChannel taskChannel)
     {
         _taskRepository = taskRepository;
         _cache = cache;
         _logger = logger;
+        _taskChannel = taskChannel;
     }
 
     public async Task CreateTaskAsync(Guid userId, CreateTaskDto dto)
@@ -51,6 +56,7 @@ public class TaskService : ITaskService
 
         await _taskRepository.AddAsync(task);
         await _taskRepository.SaveChangesAsync();
+        await _taskChannel.Queue.Writer.WriteAsync(task);
     }
 
     public async Task<List<TaskItem>> GetUserTasksAsync(Guid userId)
