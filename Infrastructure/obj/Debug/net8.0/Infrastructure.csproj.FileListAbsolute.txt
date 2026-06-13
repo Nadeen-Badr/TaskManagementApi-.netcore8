@@ -15,3 +15,4 @@ D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\refint\Infrast
 D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
 D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.genruntimeconfig.cache
 D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll
+D:\Dev\Personal\TaskManagementApi\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json

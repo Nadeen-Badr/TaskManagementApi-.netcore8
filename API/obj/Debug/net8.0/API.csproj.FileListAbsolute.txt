@@ -149,3 +149,4 @@ D:\Dev\Personal\TaskManagementApi\API\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis
 D:\Dev\Personal\TaskManagementApi\API\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Dev\Personal\TaskManagementApi\API\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Dev\Personal\TaskManagementApi\API\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Dev\Personal\TaskManagementApi\API\obj\Debug\net8.0\API.sourcelink.json

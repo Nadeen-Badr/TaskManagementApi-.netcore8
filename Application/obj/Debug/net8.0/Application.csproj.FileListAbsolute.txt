@@ -15,3 +15,4 @@ D:\Dev\Personal\TaskManagementApi\Application\obj\Debug\net8.0\Application.pdb
 D:\Dev\Personal\TaskManagementApi\Application\obj\Debug\net8.0\ref\Application.dll
 D:\Dev\Personal\TaskManagementApi\Application\bin\Debug\net8.0\Infrastructure.dll
 D:\Dev\Personal\TaskManagementApi\Application\bin\Debug\net8.0\Infrastructure.pdb
+D:\Dev\Personal\TaskManagementApi\Application\obj\Debug\net8.0\Application.sourcelink.json
