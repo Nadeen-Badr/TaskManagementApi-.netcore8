@@ -12,5 +12,10 @@ public interface ITaskService
 {
     Task CreateTaskAsync(Guid userId, CreateTaskDto dto);
     Task<List<TaskItem>> GetUserTasksAsync(Guid userId);
-    Task<TaskItem?> GetByIdAsync(Guid id);
+
+    Task UpdateStatusAsync(
+    Guid taskId,
+    Guid userId,
+    UpdateTaskStatusDto dto);
+    Task<TaskItem?> GetByIdAsync(Guid taskId, Guid userId);
 }

@@ -42,11 +42,29 @@ public class TasksController : ControllerBase
     [HttpGet("{id}")]
     public async Task<IActionResult> GetById(Guid id)
     {
-        var task = await _taskService.GetByIdAsync(id);
+        var userId = UserContext.GetUserId(User);
+
+        var task = await _taskService.GetByIdAsync(
+            id,
+            userId);
 
         if (task == null)
             return NotFound();
 
         return Ok(task);
+    }
+    [HttpPut("{id}/status")]
+    public async Task<IActionResult> UpdateStatus(
+    Guid id,
+    UpdateTaskStatusDto dto)
+    {
+        var userId = UserContext.GetUserId(User);
+
+        await _taskService.UpdateStatusAsync(
+            id,
+            userId,
+            dto);
+
+        return NoContent();
     }
 }

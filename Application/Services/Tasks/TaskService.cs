@@ -1,21 +1,28 @@
 ﻿using Application.DTOs;
 using Domain.Entities;
+using Infrastructure.Caching;
 using Infrastructure.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using Microsoft.Extensions.Logging;
 namespace Application.Services.Tasks;
 
 public class TaskService : ITaskService
 {
     private readonly ITaskRepository _taskRepository;
-
-    public TaskService(ITaskRepository taskRepository)
+    private readonly RedisCacheService _cache;
+    private readonly ILogger<TaskService> _logger;
+    public TaskService(
+       ITaskRepository taskRepository,
+       RedisCacheService cache,
+       ILogger<TaskService> logger)
     {
         _taskRepository = taskRepository;
+        _cache = cache;
+        _logger = logger;
     }
 
     public async Task CreateTaskAsync(Guid userId, CreateTaskDto dto)
@@ -56,8 +63,65 @@ public class TaskService : ITaskService
             .ToList();
     }
 
-    public async Task<TaskItem?> GetByIdAsync(Guid id)
+    public async Task<TaskItem?> GetByIdAsync(
+        Guid taskId,
+        Guid userId)
     {
-        return await _taskRepository.GetByIdAsync(id);
+        var cacheKey = $"task:{taskId}";
+
+        var cachedTask =
+            await _cache.GetAsync<TaskItem>(cacheKey);
+
+        if (cachedTask != null)
+        {
+            _logger.LogInformation(
+                "Redis HIT for task {TaskId}",
+                taskId);
+
+            if (cachedTask.UserId != userId)
+                return null;
+
+            return cachedTask;
+        }
+
+        _logger.LogInformation(
+            "Redis MISS for task {TaskId}",
+            taskId);
+
+        var task =
+            await _taskRepository.GetByIdAsync(
+                taskId);
+
+        if (task == null)
+            return null;
+
+        _logger.LogInformation(
+            "SQL query executed for task {TaskId}",
+            taskId);
+
+        await _cache.SetAsync(
+            cacheKey,
+            task,
+            TimeSpan.FromMinutes(5));
+
+        return task;
+    }
+    public async Task UpdateStatusAsync(
+     Guid taskId,
+     Guid userId,
+     UpdateTaskStatusDto dto)
+    {
+        var task = await _taskRepository.GetByIdAsync(taskId);
+
+        if (task == null)
+            throw new Exception("Task not found");
+
+        if (task.UserId != userId)
+            throw new Exception("You cannot update another user's task");
+
+        task.Status = (Domain.Enums.TaskStatus)dto.Status;
+
+        await _taskRepository.SaveChangesAsync();
+        await _cache.RemoveAsync($"task:{taskId}");
     }
 }
