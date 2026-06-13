@@ -23,7 +23,7 @@ builder.Services.AddSingleton<TaskChannel>();
 
 builder.Services.AddHostedService<TaskProcessingWorker>();
 builder.Services.AddSingleton<IConnectionMultiplexer>(
-    ConnectionMultiplexer.Connect("localhost:6379"));
+ConnectionMultiplexer.Connect("redis:6379"));
 
 builder.Services.AddScoped<RedisCacheService>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
