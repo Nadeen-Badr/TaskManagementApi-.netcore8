@@ -2,6 +2,8 @@ bin/
 obj/
 .vs/
 .vscode/
+Debug/
+Release/
 *.user
 *.suo
 *.log
