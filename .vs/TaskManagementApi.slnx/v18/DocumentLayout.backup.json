@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Dev\\Personal\\TaskManagementApi\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F452C538-65F4-B9DF-AD14-F1FCD8173D78}|TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj|d:\\dev\\personal\\taskmanagementapi\\taskmanagementapi.tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F452C538-65F4-B9DF-AD14-F1FCD8173D78}|TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj|solutionrelative:taskmanagementapi.tests\\tests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|d:\\dev\\personal\\taskmanagementapi\\application\\services\\tasks\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F80C4E72-27A0-12B5-0634-DD5C11CFB0C1}|Application\\Application.csproj|solutionrelative:application\\services\\tasks\\taskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -155,10 +159,6 @@
       "RelativeMoniker": "D:0:0:{F452C538-65F4-B9DF-AD14-F1FCD8173D78}|TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj|solutionrelative:taskmanagementapi.tests\\taskmanagementapi.tests.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F452C538-65F4-B9DF-AD14-F1FCD8173D78}|TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj|d:\\dev\\personal\\taskmanagementapi\\taskmanagementapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F452C538-65F4-B9DF-AD14-F1FCD8173D78}|TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj|solutionrelative:taskmanagementapi.tests\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|d:\\dev\\personal\\taskmanagementapi\\infrastructure\\infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{5872AEB3-BAA3-FE31-B0EB-0FB6DBEDCF83}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\infrastructure.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
@@ -182,11 +182,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Tests.cs",
+              "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\TaskManagementApi.Tests\\Tests.cs",
+              "RelativeDocumentMoniker": "TaskManagementApi.Tests\\Tests.cs",
+              "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\TaskManagementApi.Tests\\Tests.cs",
+              "RelativeToolTip": "TaskManagementApi.Tests\\Tests.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAEwBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-13T13:53:09.931Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "TaskProcessingWorker.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\BackgroundJobs\\TaskProcessingWorker.cs",
               "RelativeDocumentMoniker": "Infrastructure\\BackgroundJobs\\TaskProcessingWorker.cs",
@@ -199,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "TaskChannel.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\BackgroundJobs\\TaskChannel.cs",
               "RelativeDocumentMoniker": "Infrastructure\\BackgroundJobs\\TaskChannel.cs",
@@ -212,19 +225,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "RedisCacheService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Caching\\RedisCacheService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Caching\\RedisCacheService.cs",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Caching\\RedisCacheService.cs",
               "RelativeToolTip": "Infrastructure\\Caching\\RedisCacheService.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAIBJwC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T12:03:40.563Z"
+              "WhenOpened": "2026-06-13T12:03:40.563Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserResponseDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\DTOs\\UserResponseDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\UserResponseDto.cs",
@@ -232,11 +246,12 @@
               "RelativeToolTip": "Application\\DTOs\\UserResponseDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T11:38:43.805Z"
+              "WhenOpened": "2026-06-13T11:38:43.805Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UsersController.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\Controllers\\UsersController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\UsersController.cs",
@@ -244,11 +259,12 @@
               "RelativeToolTip": "API\\Controllers\\UsersController.cs",
               "ViewState": "AgIAACwAAAAAAAAAAAAqwEIAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T11:30:15.688Z"
+              "WhenOpened": "2026-06-13T11:30:15.688Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AuthController.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\AuthController.cs",
@@ -256,24 +272,25 @@
               "RelativeToolTip": "API\\Controllers\\AuthController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T18:30:58.03Z"
+              "WhenOpened": "2026-06-12T18:30:58.03Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Services\\Tasks\\TaskService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\Tasks\\TaskService.cs",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Services\\Tasks\\TaskService.cs",
               "RelativeToolTip": "Application\\Services\\Tasks\\TaskService.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDoAAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAEwA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T18:00:33.133Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
@@ -286,7 +303,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ITaskService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Services\\Tasks\\ITaskService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\Tasks\\ITaskService.cs",
@@ -294,11 +311,12 @@
               "RelativeToolTip": "Application\\Services\\Tasks\\ITaskService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:59:42.936Z"
+              "WhenOpened": "2026-06-12T17:59:42.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "AuthService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Services\\Auth\\AuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\Auth\\AuthService.cs",
@@ -306,11 +324,12 @@
               "RelativeToolTip": "Application\\Services\\Auth\\AuthService.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAQwAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:52:10.927Z"
+              "WhenOpened": "2026-06-12T17:52:10.927Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Repositories\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\IUserRepository.cs",
@@ -318,11 +337,12 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\IUserRepository.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAIAwwBAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:40:58.184Z"
+              "WhenOpened": "2026-06-12T17:40:58.184Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "UpdateTaskStatusDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\DTOs\\UpdateTaskStatusDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\UpdateTaskStatusDto.cs",
@@ -330,11 +350,12 @@
               "RelativeToolTip": "Application\\DTOs\\UpdateTaskStatusDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T11:53:14.647Z"
+              "WhenOpened": "2026-06-13T11:53:14.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "TasksController.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\Controllers\\TasksController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\TasksController.cs",
@@ -342,11 +363,12 @@
               "RelativeToolTip": "API\\Controllers\\TasksController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAqwDYAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T18:32:26.913Z"
+              "WhenOpened": "2026-06-12T18:32:26.913Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CreateUserDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\DTOs\\CreateUserDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\CreateUserDto.cs",
@@ -354,23 +376,25 @@
               "RelativeToolTip": "Application\\DTOs\\CreateUserDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-13T11:41:19.39Z"
+              "WhenOpened": "2026-06-13T11:41:19.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\UserRepository.cs",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Repositories\\UserRepository.cs",
               "RelativeToolTip": "Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAA5wC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:36:26.794Z"
+              "WhenOpened": "2026-06-12T17:36:26.794Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UserContext.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\Helpers\\UserContext.cs",
               "RelativeDocumentMoniker": "API\\Helpers\\UserContext.cs",
@@ -378,23 +402,23 @@
               "RelativeToolTip": "API\\Helpers\\UserContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T18:31:58.017Z"
+              "WhenOpened": "2026-06-12T18:31:58.017Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "20260612191718_InitialCreate.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Migrations\\20260612191718_InitialCreate.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20260612191718_InitialCreate.cs",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Migrations\\20260612191718_InitialCreate.cs",
               "RelativeToolTip": "Infrastructure\\Migrations\\20260612191718_InitialCreate.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-12T19:17:18.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20260612193020_InitialCreate.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Migrations\\20260612193020_InitialCreate.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20260612193020_InitialCreate.cs",
@@ -402,11 +426,12 @@
               "RelativeToolTip": "Infrastructure\\Migrations\\20260612193020_InitialCreate.cs",
               "ViewState": "AgIAAC4AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T19:30:20.41Z"
+              "WhenOpened": "2026-06-12T19:30:20.41Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "TaskItemConfiguration.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Data\\Configurations\\TaskItemConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\TaskItemConfiguration.cs",
@@ -414,11 +439,12 @@
               "RelativeToolTip": "Infrastructure\\Data\\Configurations\\TaskItemConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:22:56.648Z"
+              "WhenOpened": "2026-06-12T17:22:56.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ExceptionMiddleware.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\Middleware\\ExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "API\\Middleware\\ExceptionMiddleware.cs",
@@ -426,11 +452,12 @@
               "RelativeToolTip": "API\\Middleware\\ExceptionMiddleware.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T18:52:15.386Z"
+              "WhenOpened": "2026-06-12T18:52:15.386Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IAuthService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Services\\Auth\\IAuthService.cs",
               "RelativeDocumentMoniker": "Application\\Services\\Auth\\IAuthService.cs",
@@ -438,11 +465,12 @@
               "RelativeToolTip": "Application\\Services\\Auth\\IAuthService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:51:37.11Z"
+              "WhenOpened": "2026-06-12T17:51:37.11Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "CreateTaskDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\DTOs\\CreateTaskDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\CreateTaskDto.cs",
@@ -450,11 +478,12 @@
               "RelativeToolTip": "Application\\DTOs\\CreateTaskDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:50:44.328Z"
+              "WhenOpened": "2026-06-12T17:50:44.328Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "LoginDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\DTOs\\LoginDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\LoginDto.cs",
@@ -462,11 +491,12 @@
               "RelativeToolTip": "Application\\DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:50:19.051Z"
+              "WhenOpened": "2026-06-12T17:50:19.051Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\DTOs\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Application\\DTOs\\RegisterDto.cs",
@@ -474,11 +504,12 @@
               "RelativeToolTip": "Application\\DTOs\\RegisterDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:49:54.453Z"
+              "WhenOpened": "2026-06-12T17:49:54.453Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
@@ -486,23 +517,25 @@
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-12T17:45:06.631Z"
+              "WhenOpened": "2026-06-12T17:45:06.631Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "JwtTokenService.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Auth\\JwtTokenService.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Auth\\JwtTokenService.cs",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Auth\\JwtTokenService.cs",
               "RelativeToolTip": "Infrastructure\\Auth\\JwtTokenService.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAAC4AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAIBJwC4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:44:41.478Z"
+              "WhenOpened": "2026-06-12T17:44:41.478Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "DataSeeder.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Seed\\DataSeeder.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Seed\\DataSeeder.cs",
@@ -510,11 +543,12 @@
               "RelativeToolTip": "Infrastructure\\Seed\\DataSeeder.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:44:01.504Z"
+              "WhenOpened": "2026-06-12T17:44:01.504Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "ITaskRepository.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Repositories\\ITaskRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ITaskRepository.cs",
@@ -522,11 +556,12 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\ITaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:42:08.002Z"
+              "WhenOpened": "2026-06-12T17:42:08.002Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "TaskRepository.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Repositories\\TaskRepository.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Repositories\\TaskRepository.cs",
@@ -534,11 +569,12 @@
               "RelativeToolTip": "Infrastructure\\Repositories\\TaskRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:36:59.02Z"
+              "WhenOpened": "2026-06-12T17:36:59.02Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "UserConfiguration.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
@@ -546,11 +582,12 @@
               "RelativeToolTip": "Infrastructure\\Data\\Configurations\\UserConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:22:40.389Z"
+              "WhenOpened": "2026-06-12T17:22:40.389Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Infrastructure\\Data\\AppDbContext.cs",
@@ -558,11 +595,12 @@
               "RelativeToolTip": "Infrastructure\\Data\\AppDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:21:35.933Z"
+              "WhenOpened": "2026-06-12T17:21:35.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Entities\\TaskItem.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\TaskItem.cs",
@@ -570,23 +608,25 @@
               "RelativeToolTip": "Domain\\Entities\\TaskItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:11:00.363Z"
+              "WhenOpened": "2026-06-12T17:11:00.363Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\User.cs",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Entities\\User.cs",
               "RelativeToolTip": "Domain\\Entities\\User.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwBsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:10:23.913Z"
+              "WhenOpened": "2026-06-12T17:10:23.913Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "TaskStatus.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Enums\\TaskStatus.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\TaskStatus.cs",
@@ -594,11 +634,12 @@
               "RelativeToolTip": "Domain\\Enums\\TaskStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:09:33.632Z"
+              "WhenOpened": "2026-06-12T17:09:33.632Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "TaskPriority.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Enums\\TaskPriority.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\TaskPriority.cs",
@@ -606,11 +647,12 @@
               "RelativeToolTip": "Domain\\Enums\\TaskPriority.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:09:01.294Z"
+              "WhenOpened": "2026-06-12T17:09:01.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "UserRole.cs",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Enums\\UserRole.cs",
               "RelativeDocumentMoniker": "Domain\\Enums\\UserRole.cs",
@@ -618,41 +660,32 @@
               "RelativeToolTip": "Domain\\Enums\\UserRole.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T17:08:31.395Z"
+              "WhenOpened": "2026-06-12T17:08:31.395Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "API",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\API\\API.csproj",
               "RelativeToolTip": "API\\API.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-12T17:06:44.668Z"
+              "WhenOpened": "2026-06-12T17:06:44.668Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "TaskManagementApi.Tests",
               "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj",
               "RelativeDocumentMoniker": "TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj",
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj",
               "RelativeToolTip": "TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-12T16:54:40.016Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "UnitTest1.cs",
-              "DocumentMoniker": "D:\\Dev\\Personal\\TaskManagementApi\\TaskManagementApi.Tests\\UnitTest1.cs",
-              "RelativeDocumentMoniker": "TaskManagementApi.Tests\\UnitTest1.cs",
-              "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\TaskManagementApi.Tests\\UnitTest1.cs",
-              "RelativeToolTip": "TaskManagementApi.Tests\\UnitTest1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T16:54:34.118Z"
+              "WhenOpened": "2026-06-12T16:54:40.016Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -663,7 +696,8 @@
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Infrastructure.csproj",
               "RelativeToolTip": "Infrastructure\\Infrastructure.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-12T16:53:39.936Z"
+              "WhenOpened": "2026-06-12T16:53:39.936Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -674,7 +708,8 @@
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Domain.csproj",
               "RelativeToolTip": "Domain\\Domain.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-12T16:53:10.2Z"
+              "WhenOpened": "2026-06-12T16:53:10.2Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -686,7 +721,8 @@
               "RelativeToolTip": "Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-12T16:53:07.618Z"
+              "WhenOpened": "2026-06-12T16:53:07.618Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -697,7 +733,8 @@
               "ToolTip": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Application.csproj",
               "RelativeToolTip": "Application\\Application.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-06-12T16:52:32.595Z"
+              "WhenOpened": "2026-06-12T16:52:32.595Z",
+              "EditorCaption": ""
             }
           ]
         }

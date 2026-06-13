@@ -4,6 +4,121 @@
     "D:\\Dev\\Personal\\TaskManagementApi\\TaskManagementApi.Tests\\TaskManagementApi.Tests.csproj": {}
   },
   "projects": {
+    "D:\\Dev\\Personal\\TaskManagementApi\\API\\API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Dev\\Personal\\TaskManagementApi\\API\\API.csproj",
+        "projectName": "API",
+        "projectPath": "D:\\Dev\\Personal\\TaskManagementApi\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "D:\\Dev\\Personal\\TaskManagementApi\\API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "framework": "net8.0",
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Application.csproj": {
+                "projectPath": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Application.csproj"
+              },
+              "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "10.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "framework": "net8.0",
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.OpenApi": {
+              "target": "Package",
+              "version": "[1.6.22, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.8.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[8.0.28, 8.0.28]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -327,11 +442,14 @@
             "framework": "net8.0",
             "targetAlias": "net8.0",
             "projectReferences": {
+              "D:\\Dev\\Personal\\TaskManagementApi\\API\\API.csproj": {
+                "projectPath": "D:\\Dev\\Personal\\TaskManagementApi\\API\\API.csproj"
+              },
               "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Application.csproj": {
                 "projectPath": "D:\\Dev\\Personal\\TaskManagementApi\\Application\\Application.csproj"
               },
-              "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Dev\\Personal\\TaskManagementApi\\Domain\\Domain.csproj"
+              "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Dev\\Personal\\TaskManagementApi\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -353,9 +471,17 @@
           "framework": "net8.0",
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.10.0, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.14.1, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.8.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
