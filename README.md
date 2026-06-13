@@ -108,7 +108,7 @@ Unit tests written with **xUnit** and **Moq**, covering:
 All services are fully containerized. No local setup needed.
 
 ```bash
-git clone <repo-url>
+git clone <[repo-url](https://github.com/Nadeen-Badr/TaskManagementApi-.netcore8.git)>
 cd TaskManagementApi
 
 docker compose up --build
